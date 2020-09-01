@@ -8,7 +8,7 @@ client.on("ready", () => {
 });
 
 client.on("message", message => {
-  let channel = "add ur channel id here";
+  let channel = "750150383116091543";
   if (!message.author.bot && message.channel.id == channel) {
     let ree = message.content || "Hi";
     message.channel.startTyping();
@@ -21,4 +21,4 @@ client.on("message", message => {
     });
   }
 });
-client.login("add your token here");
+client.login(process.env.TOKEN);
