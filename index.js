@@ -8,7 +8,7 @@ client.on("ready", () => {
 });
 
 client.on("message", message => {
-  let channel = "750150383116091543";
+  let channel = "776811582884806666";
   if (!message.author.bot && message.channel.id == channel) {
     let ree = message.content || "Hi";
     message.channel.startTyping();
